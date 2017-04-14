@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-    
+    <div id=container>
+        <table id="tblBoard" cellspacing="0">
+            <tr><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+        <button id="btnResize" onClick = resize()>6x6</button>
+        <br></br><button id="btnRestart">Start new game</button>
+        <br></br><button id="btnReset">Reset</button>
+    </div>
+    <script src="js/index.js"></script>
 </body>
 </html>

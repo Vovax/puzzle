@@ -1,0 +1,28 @@
+.touchingCells {
+    background-color: #f9f0f0;
+    cursor: pointer;
+    transform: rotate(-15deg);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.empty {
+    background-color: #ffffff;
+}
+
+#tblBoard {
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    background-color: #fefafa;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+td {
+    text-align: center;
+    width: 20px;
+    padding: 20px;
+    border: 1px solid #bdbdbd;
+    cursor: pointer;
+    text-shadow: rgb(245, 220, 220) 1px 1px 5px;
+    font-family: fantasy;
+}
