@@ -1,19 +1,10 @@
-.touchingCells {
-    background-color: #f9f0f0;
-    cursor: pointer;
-    transform: rotate(-15deg);
-    transition: transform 0.3s ease-in-out;
-
-}
-
-.empty {
-    background-color: #ffffff;
+body {
+    background-color: rgba(226,226,226,1);
 }
 
 #tblBoard {
-    border: 1px solid #bdbdbd;
     border-radius: 6px;
-    background-color: #fefafa;
+    border: 1px solid #fefafa;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -21,8 +12,21 @@ td {
     text-align: center;
     width: 20px;
     padding: 20px;
-    border: 1px solid #bdbdbd;
+    border: 1px solid #fefafa;
     cursor: pointer;
-    text-shadow: rgb(245, 220, 220) 1px 1px 5px;
+    background-color: #D2B9BF;
     font-family: fantasy;
+    border-radius: 4px;
+}
+
+.touchingCells {
+    /*background-color: #f9f0f0;*/
+    cursor: pointer;
+    /*transform: rotate(-15deg);*/
+    /*transition: transform 0.3s ease-in-out;*/
+
+}
+
+.empty {
+    background-color: #fefafa;
 }
